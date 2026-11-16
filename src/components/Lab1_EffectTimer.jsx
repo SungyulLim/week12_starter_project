@@ -17,7 +17,7 @@ export default function Lab1EffectTimer() {
     return () => {
       clearInterval(timerId);
     };
-  },[]);
+  },[]); // []가 들어간 경우 처음 한번만 실행되고 다음번 랜더링에서는 실행되지 않음
 
   return (
     <div>
