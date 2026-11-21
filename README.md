@@ -1,6 +1,5 @@
 # OSS Week 12 — React Hooks Playground (22200619-임성열)
 
-
 ## Project Information
 ### 프로젝트 소개 
 ### Starter Project 정보
@@ -20,8 +19,7 @@
 - 함수형 업데이트인 setCount(prev => prev + 1)을 사용하여 이전 상태를 기준으로 값을 증가시키고, Cleanup에서 clearInterval()을 호출하여 타이머를 정리하도록 하였다. 
 - 정상 실행 시 화면에 표시된 카운트가 0부터 1초마다 증가하며, 다른 LAB으로 이동하면 타이머가 정리된다.
 
-![lab1 사진](../week12_starter_project/capture/lab1.png)
-
+![lab1 사진](./capture/lab1.png)
 
 ### LAB 2: Timer Start / Stop / Reset
 - running 상태와 이를 의존성으로 갖는 useEffect를 이용하여 타이머의 실행과 정지를 제어하도록 구현하였다. 
@@ -29,13 +27,13 @@
 - Reset 버튼은 타이머를 정지하고 카운트를 0으로 초기화한다. 정상 실행 시 Start를 누르면 카운트가 증가하고, Stop을 누르면 현재 값에서 멈추며, 다시 Start를 누르면 이어서 증가한다. 
 - 실행 중에는 Start 버튼이 비활성화되어 중복 실행을 방지한다.
 #### 초기 사진
-![lab2 사진](../week12_starter_project/capture/lab2_초기상태.png)
+![lab2 사진](./capture/lab2_초기상태.png)
 #### Running 사진
-![lab2 사진](../week12_starter_project/capture/lab2_running.png)
+![lab2 사진](./capture/lab2_running.png)
 #### Stopped 사진
-![lab2 사진](../week12_starter_project/capture/lab2_stopped.png)
+![lab2 사진](./capture/lab2_stopped.png)
 #### Reset 사진
-![lab2 사진](../week12_starter_project/capture/lab2_reset.png)
+![lab2 사진](./capture/lab2_reset.png)
 
 
 ### LAB 3: Input Focus with useRef
@@ -44,7 +42,7 @@
 - 정상 실행 시 Focus 버튼을 누르면 바로 입력할 수 있으며, Clear 버튼을 누르면 기존 내용이 지워지고 입력창을 다시 클릭하지 않아도 새로운 내용을 입력할 수 있다.
 
 #### focus/clear 버튼 사진
-![lab3 사진](../week12_starter_project/capture/lab3_focus_clear.png)
+![lab3 사진](./capture/lab3_focus_clear.png)
 
 
 ### LAB 4: Timer with useRef
@@ -54,13 +52,13 @@
 - 정상 실행 시 시작·정지·재시작·초기화가 가능하며, 타이머 ID는 ref로 유지하고 화면에 표시되는 카운트와 실행 상태는 state로 관리한다.
 
 #### 초기 사진
-![lab4 사진](../week12_starter_project/capture/lab4_초기상태.png)
+![lab4 사진](./capture/lab4_초기상태.png)
 #### Running 사진
-![lab4 사진](../week12_starter_project/capture/lab4_running.png)
+![lab4 사진](./capture/lab4_running.png)
 #### Stopped 사진
-![lab4 사진](../week12_starter_project/capture/lab4_stopped.png)
+![lab4 사진](./capture/lab4_stopped.png)
 #### Reset 사진
-![lab4 사진](../week12_starter_project/capture/lab4_reset.png)
+![lab4 사진](./capture/lab4_reset.png)
 
 
 ## Lab Comparison
@@ -89,6 +87,7 @@
 
 
 ## Deployment: 실제 접근 가능한 Vercel URL
+
 
 ## Weekly Review:
 ### 새롭게 배운 내용 3가지
